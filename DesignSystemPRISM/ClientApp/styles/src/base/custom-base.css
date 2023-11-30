@@ -1,0 +1,10 @@
+@import "./headings.css";
+@import "./text.css";
+@import "./input.css";
+
+@layer base {
+    html {
+        @apply text-primary;
+        font-family: 'Lexend Deca';
+    }
+}

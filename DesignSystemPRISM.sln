@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignSystemPRISM", "DesignSystemPRISM\DesignSystemPRISM.csproj", "{076128D1-9F14-4630-97F1-A2CCAF3C6A41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{076128D1-9F14-4630-97F1-A2CCAF3C6A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076128D1-9F14-4630-97F1-A2CCAF3C6A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076128D1-9F14-4630-97F1-A2CCAF3C6A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076128D1-9F14-4630-97F1-A2CCAF3C6A41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4DE93F8-1257-407E-8E6A-32708B6A5E13}
+	EndGlobalSection
+EndGlobal

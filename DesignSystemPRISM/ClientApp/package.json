@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "buildcss:debug": "cross-env NODE_ENV=development postcss ./styles/src/app.css -o ../wwwroot/css/app.debug.css",
+    "buildcss:release": "cross-env NODE_ENV=production postcss ./styles/src/app.css -o ./dist/css/app.css",
+    "watchcss:release": "cross-env NODE_ENV=production postcss ./styles/src/app.css -o ./dist/css/app.css --verbose --watch",
+    "watchcss:debug": "cross-env NODE_ENV=development postcss ./styles/src/app.css -o ../wwwroot/css/app.debug.css --verbose --watch",
+    "font": "svgtofont --sources ./styles/src/svg --output ./dist/fonts/icons --fontName icon-font",
+    "watchjs": "esbuild scripts/app.js --bundle --outdir=../wwwroot/js --watch --minify",
+    "dev": " concurrently npm:watchcss:debug npm:watchjs"
+  },
+  "svgtofont": {
+    "outSVGReact": false,
+    "css": {
+      "include": "\\.(css)$",
+      "fontSize": false,
+      "cssPath": "https://tildesignsystem.blob.core.windows.net/til-designsystem/styles/fonts/icons/"
+    },
+    "svgicons2svgfont": {
+      "fontHeight": 1000,
+      "normalize": true
+    },
+    "website": null,
+    "emptyDist": true
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "autoprefixer": "^10.4.15",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "cssnano": "^6.0.1",
+    "esbuild": "0.19.8",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "tailwind-scrollbar": "^3.0.5",
+    "tailwindcss": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "svgtofont": "^4.0.0"
+  }
+}

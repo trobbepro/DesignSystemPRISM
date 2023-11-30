@@ -1,0 +1,18 @@
+﻿@page "/buttons"
+
+<PageTitle>Buttons</PageTitle>
+
+<h1>Buttons</h1>
+
+<button class="btn">button</button>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

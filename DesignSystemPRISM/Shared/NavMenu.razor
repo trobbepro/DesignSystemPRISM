@@ -1,0 +1,60 @@
+﻿<aside class="absolute sm:relative z-20 top-0 w-full transition-[left,width] ease-[cubic-bezier(0.77,0.2,0.05,1.0)] left-0 sm:max-w-[20vw] @NavMenuCssClass">
+    <button class="absolute text-l @NavMenuToggle @NavMenuToggleIcon top-0 z-[1036] px-s py-s text-neutral-50 bg-primary leading-none transition-[right] ease-[cubic-bezier(0.77,0.2,0.05,1.0)]" title="Navigation menu" @onclick="ToggleNavMenu">
+        <span class="sr-only">Open menu</span>
+    </button>
+    <div class="z-[1035] overflow-hidden bg-primary-accent w-full h-full @NavMenuContentClass">
+        <div class="flex flex-col justify-center items-center py-l w-full border-b-2 border-primary-light">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 28 32" fill="none">
+                <g clip-path="url(#clip0_2928_6732)">
+                    <path d="M23 11C23 9.8181 22.7672 8.64778 22.3149 7.55585C21.8626 6.46392 21.1997 5.47177 20.364 4.63604C19.5282 3.80031 18.5361 3.13738 17.4442 2.68508C16.3522 2.23279 15.1819 2 14 2C12.8181 2 11.6478 2.23279 10.5558 2.68508C9.46392 3.13738 8.47177 3.80031 7.63604 4.63604C6.80031 5.47177 6.13738 6.46392 5.68508 7.55585C5.23279 8.64778 5 9.8181 5 11C5 12.1819 5.23279 13.3522 5.68508 14.4442C6.13738 15.5361 6.80031 16.5282 7.63604 17.364C8.47177 18.1997 9.46392 18.8626 10.5558 19.3149C11.6478 19.7672 12.8181 20 14 20C15.1819 20 16.3522 19.7672 17.4442 19.3149C18.5361 18.8626 19.5282 18.1997 20.364 17.364C21.1997 16.5282 21.8626 15.5361 22.3149 14.4442C22.7672 13.3522 23 12.1819 23 11ZM3 11C3 8.08262 4.15893 5.28473 6.22183 3.22183C8.28473 1.15893 11.0826 0 14 0C16.9174 0 19.7153 1.15893 21.7782 3.22183C23.8411 5.28473 25 8.08262 25 11C25 13.9174 23.8411 16.7153 21.7782 18.7782C19.7153 20.8411 16.9174 22 14 22C11.0826 22 8.28473 20.8411 6.22183 18.7782C4.15893 16.7153 3 13.9174 3 11ZM1 7C1.55 7 2 7.45 2 8V14C2 14.55 1.55 15 1 15C0.45 15 0 14.55 0 14V8C0 7.45 0.45 7 1 7ZM28 8V14C28 14.55 27.55 15 27 15C26.45 15 26 14.55 26 14V8C26 7.45 26.45 7 27 7C27.55 7 28 7.45 28 8ZM0 30.1437C0 26.1312 2.11875 22.6187 5.29375 20.6562C5.83125 21.1437 6.4125 21.5813 7.025 21.975C4.0875 23.4625 2.05625 26.4875 2 30H6V28C6 26.3438 7.34375 25 9 25H19C20.6562 25 22 26.3438 22 28V30H26C25.9438 26.4875 23.9125 23.4625 20.9688 21.975C21.5812 21.5813 22.1625 21.1437 22.7 20.6562C25.875 22.6187 27.9937 26.1312 27.9937 30.1437C27.9937 31.1687 27.1625 32 26.1375 32H1.85625C0.83125 32 0 31.1687 0 30.1437ZM18 30H20V28C20 27.45 19.55 27 19 27H9C8.45 27 8 27.45 8 28V30H10V29C10 28.45 10.45 28 11 28C11.55 28 12 28.45 12 29V30H16V29C16 28.45 16.45 28 17 28C17.55 28 18 28.45 18 29V30ZM12.8313 10.1687L14.1562 10.5437C14.3625 10.6 14.5 10.7875 14.5 11C14.5 11.2125 14.3625 11.4 14.1562 11.4563L12.8313 11.8313L12.4563 13.1562C12.4 13.3625 12.2125 13.5 12 13.5C11.7875 13.5 11.6 13.3625 11.5437 13.1562L11.1687 11.8313L9.84375 11.4563C9.6375 11.4 9.5 11.2125 9.5 11C9.5 10.7875 9.6375 10.6 9.84375 10.5437L11.1687 10.1687L11.5437 8.84375C11.6 8.6375 11.7875 8.5 12 8.5C12.2125 8.5 12.4 8.6375 12.4563 8.84375L12.8313 10.1687ZM10 8C8.89375 8 8 8.89375 8 10V11C8 13.7625 10.2375 16 13 16H15C17.7625 16 20 13.7625 20 11V10C20 8.89375 19.1063 8 18 8H10ZM6 10C6 7.79375 7.79375 6 10 6H18C20.2062 6 22 7.79375 22 10V11C22 14.8687 18.8687 18 15 18H13C9.13125 18 6 14.8687 6 11V10Z" fill="#191B1F" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_2928_6732">
+                        <rect width="28" height="32" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+        
+        <nav class="h-full pt-l">
+            <ul class="h-full flex flex-col w-full">
+                @foreach (var link in NavigationLinks)
+                {
+                    <li class="w-full">
+                        <NavLink class="block font-normal w-full px-s py-xs rounded-xs transition ease-in-out hover:bg-primary hover:text-neutral-50 no-underline" href="@link.Href" Match="NavLinkMatch.All">
+                            @link.Label
+                        </NavLink>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</aside>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => !collapseNavMenu ? null : "left-[-100%] sm:left-0 sm:w-0 shadow-sm";
+    private string? NavMenuToggle => collapseNavMenu ? "left-full" : "right-0 sm:left-full sm:right-auto";
+    private string? NavMenuContentClass => collapseNavMenu ? "p-0" : "right-0 px-s";
+    private string? NavMenuToggleIcon => collapseNavMenu ? "icon-font-bars-sort-light" : "icon-font-xmark-light";
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    private class NavigationLink
+    {
+        public string? Href { get; set; }
+        public string? Label { get; set; }
+    }
+
+    private List<NavigationLink> NavigationLinks = new List<NavigationLink>
+    {
+        new NavigationLink { Href = "", Label = "Home" },
+        new NavigationLink { Href = "variables", Label = "Variables" },
+        new NavigationLink { Href = "buttons", Label = "Buttons" },
+        new NavigationLink { Href = "texts", Label = "Texts" }
+    };
+}

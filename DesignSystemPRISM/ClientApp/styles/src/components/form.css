@@ -1,0 +1,94 @@
+@layer components {
+    .login-form {
+        @apply grid justify-items-stretch grid-cols-6 gap-m;
+    }
+
+    .input-container {
+        @apply relative flex flex-col items-stretch;
+    }
+
+    .input-container .optional-content {
+        @apply flex gap-1;
+    }
+
+    .input-container .optional-content.right {
+        @apply justify-between;
+    }
+
+    .input-container .input-icon {
+        @apply relative;
+    }
+
+    .input-container .input-icon.icon-left input {
+        @apply pl-xl;
+    }
+
+    .input-container .input-icon.icon-right input {
+        @apply pr-xl;
+    }
+
+    .input-container .input-icon.icon-left [class^="icon-font-"], .input-container .input-icon.icon-left [class*=" icon-font-"]  {
+        @apply absolute left-s top-1/2 transform -translate-y-1/2;
+    }
+
+    .input-container .input-icon.icon-right [class^="icon-font-"], .input-container .input-icon.icon-right [class*=" icon-font-"]  {
+        @apply absolute right-s top-1/2 transform -translate-y-1/2;
+    }
+
+    .optional-content .optional {
+        @apply text-xs text-placeholder;
+    }
+
+    input.invalid {
+        @apply animate-shake-x border-error ring-0 enabled:hover:border-error enabled:focus:border-brand !important;
+    }
+
+    input[type="radio"].invalid + label::before {
+
+    }
+
+    input[type="radio"].company-input + label {
+        @apply before:content-none border after:content-none block py-xs px-s cursor-pointer w-full border-neutral-300 rounded-s;
+    }
+
+    input[type="radio"].company-input + label:hover, input[type="radio"].company-input + label:focus {
+        @apply border-brand;
+    }
+
+    input[type="radio"].company-input:checked + label {
+        @apply border-2 border-brand;
+    }
+
+    input[type='number'].input-code.invalid {
+        @apply bg-danger-light;
+    }
+
+    .input-error, .digicode-error, .validation-errors .validation-message {
+        @apply before:content-["\ea05"] before:font-icon before:text-s flex items-center gap-xs mt-2xs text-error text-xs;
+    }
+
+    .input-error {  
+        display: none;
+    }
+
+    .invalid:focus + .input-error:not(:empty), .phoneEntry .number:focus-within + .input-error:not(:empty) {
+        display: flex;
+    }
+
+    .pwd-container {
+        @apply relative;
+    }
+
+    .pwd-toggler {
+        @apply absolute text-[#000] right-s top-[2.6rem] leading-[0];
+    }
+
+    .pwd-toggler label {
+        @apply cursor-pointer text-l;
+    }
+
+    .pwd-toggler input:focus + label {
+        outline: 5px auto Highlight;
+        outline: 5px auto -webkit-focus-ring-color;
+    }
+}

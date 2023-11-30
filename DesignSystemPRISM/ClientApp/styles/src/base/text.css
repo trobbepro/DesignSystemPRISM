@@ -1,0 +1,13 @@
+@layer base {
+    p, input, ul {
+        @apply text-primary font-lexend font-light leading-normal tracking-wide;
+    }
+
+    strong, b {
+        @apply text-primary font-lexend leading-normal tracking-wide font-medium;
+    }
+
+    a {
+        @apply text-primary font-lexend font-light leading-normal tracking-wide underline;
+    }
+}

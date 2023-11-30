@@ -1,0 +1,74 @@
+@layer base {
+    label {
+        @apply text-s font-light;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="number"] {
+        /* Default */
+        @apply min-w-0 valid:border-neutral-900 surface-primary text-primary leading-[1.4] text-m border border-primary placeholder:text-placeholder rounded-input py-xs px-s transition ease-in-out duration-300
+        /* Hover */
+        enabled:hover:border-hover
+        /* Focus */
+        enabled:focus:border-brand focus:outline-none focus:ring-0
+        /* Disabled */
+        disabled:surface-disabled disabled:text-disabled
+        /* Readonly */
+        read-only:!surface-readonly read-only:text-placeholder read-only:border-primary read-only:hover:!border-primary read-only:focus:!border-primary;
+    }
+
+    /* Edge a par défaut le password reveal donc on le supprime */
+    input::-ms-reveal, input::-ms-clear {
+        display: none;
+    }
+
+    /* On enlève le background bleu lorsqu'on séléctionne un text en autocomplete */
+    input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px white inset !important;
+        transition: background-color 9999s ease-in-out 0s; /* MAGIC */
+    }
+    input[type='number'].input-code {
+        @apply valid:border-neutral-900 font-medium text-l placeholder:text-primary surface-primary p-0 text-center h-8 basis-6 grow-0 shrink-0;
+    }
+
+    input[type='number'].input-code::-webkit-outer-spin-button,
+    input[type='number'].input-code::-webkit-inner-spin-button,
+    input[type='number'].input-code {
+      -webkit-appearance: none;
+      margin: 0;
+      -moz-appearance: textfield !important;
+    }
+
+    input[type="checkbox"] {
+        @apply rounded-[0.125rem] surface-primary border-disabled accent-primary focus:ring-offset-0 focus:ring-primary/50;
+        color: theme(colors.primary.DEFAULT);
+    }
+
+    input[type="radio"] {
+        /* @apply surface-primary checked:border-brand;
+        color: theme(colors.primary.DEFAULT); */
+        @apply sr-only;
+    }
+
+    input[type="radio"] + label {
+        @apply relative inline-flex gap-xs items-center text-s w-fit cursor-pointer
+        before:w-s before:h-s before:border before:border-disabled before:surface-primary before:rounded-full
+        hover:before:border-brand hover:before:surface-brand;
+    }
+
+    input[type="radio"] + label::before {
+        @apply leading-4;
+        box-shadow: 0px 0px 0px 2px white inset;
+    }
+
+    input[type="radio"]:checked + label::before {
+        @apply border-brand surface-brand;
+    }
+
+    input[type="radio"]:checked + label:hover::before {
+        @apply border-hover surface-hover;
+    }
+
+    input[type="radio"]:focus + label::before {
+       @apply accent-primary ring-offset-0 outline outline-primary/50 outline-2 border-brand surface-brand;
+    }
+}

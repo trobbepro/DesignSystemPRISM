@@ -1,0 +1,21 @@
+@layer components {
+    .container-complex {
+        @apply lg:max-w-[1224px] xl:max-w-[1600px];
+    }
+
+    .container-dashboard {
+        @apply container-complex;
+    }
+
+    .container-login {
+        @apply relative grid grid-cols-8 flex-col w-full h-full auto-rows-min place-content-center col-start-2 flex-1 p-m;
+    }
+
+    .container-login-content {
+        @apply col-start-2 col-span-6;
+    }
+
+    .container-login-right {
+        @apply bg-primary-lightest w-full h-full p-3 flex-1;
+    }
+}

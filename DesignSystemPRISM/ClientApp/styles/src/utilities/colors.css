@@ -1,0 +1,153 @@
+@layer utilities {
+    /* TEXT */
+    .text-primary {
+        color: theme(colors.neutral.900);
+    }
+
+    .text-placeholder {
+        color: theme(colors.neutral.700);
+    }
+
+    .text-disabled-button {
+        color: theme(colors.neutral.500);
+    }
+
+    .text-disabled {
+        color: theme(colors.neutral.300);
+    }
+
+    .text-button {
+        color: theme(colors.neutral.0);
+    }
+
+    .text-button-dark {
+        color: theme(colors.primary.DEFAULT);
+    }
+
+    .text-brand {
+        color: theme(colors.primary.dark);
+    }
+
+    .text-link {
+        color: theme(colors.primary.DEFAULT);
+    }
+
+    .text-error {
+        color: theme(colors.danger.DEFAULT);
+    }
+
+    .text-success {
+        color: theme(colors.success.DEFAULT);
+    }
+
+    /* SURFACE */
+    .surface-primary {
+        background-color: theme(colors.neutral.0);
+    }
+
+    .surface-disabled {
+        background-color: theme(colors.neutral.50);
+    }
+
+    .surface-readonly {
+        background-color: #EFE9FE;
+    }
+
+    .surface-hover-secondary-tertiary {
+        background-color: theme(colors.primary.lighter);
+    }
+
+    .surface-hover {
+        background-color: theme(colors.primary.dark);
+    }
+
+    .surface-zone {
+        background-color: theme(colors.primary.lightest);
+    }
+
+    .surface-transparent {
+        background-color: transparent;
+    }
+
+    .surface-elements {
+        background-color: theme(colors.primary.light);
+    }
+
+    .surface-brand {
+        background-color: theme(colors.primary.DEFAULT);
+    }
+
+    .surface-table-header {
+        background-color: theme(colors.primary.light);
+    }
+
+    .surface-body-separation-line {
+        background-color: theme(colors.primary.lightest);
+    }
+
+    .surface-tooltip {
+        background-color: theme(colors.neutral.900);
+    }
+
+    .surface-scroll-zone {
+        background-color: theme(colors.neutral.50);
+    }
+
+    .surface-scroll-bar {
+        background: theme(colors.neutral.300);
+    }
+
+    .surface-toast-none {
+        background-color: theme(colors.neutral.700);
+    }
+
+    .surface-error {
+        background-color: theme(colors.danger.DEFAULT);
+    }
+
+    .surface-success {
+        background-color: theme(colors.success.DEFAULT);
+    }
+
+    .surface-warning {
+        background-color: theme(colors.warning.DEFAULT);
+    }
+
+    /* ELEMENT */
+    .element-error {
+        background-color: theme(colors.danger.DEFAULT);
+    }
+
+    .element-success {
+        background-color: theme(colors.success.DEFAULT);
+    }
+
+    .element-warning {
+        background-color: theme(colors.warning.DEFAULT);
+    }
+
+    /* BORDER */
+    .border-primary {
+        border-color: theme(colors.neutral.300);
+    }
+
+    .border-disabled {
+        border-color: theme(colors.neutral.500);
+    }
+
+    .border-brand {
+        border-color: theme(colors.primary.DEFAULT);
+    }
+
+    .border-hover {
+        border-color: theme(colors.primary.dark);
+    }
+
+    .border-error {
+        border-color: theme(colors.danger.DEFAULT);
+    }
+
+    .border-filled {
+        border-color: theme(colors.neutral.500);
+    }
+}

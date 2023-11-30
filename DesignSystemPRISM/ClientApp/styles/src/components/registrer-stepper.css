@@ -1,0 +1,13 @@
+@layer components {
+    .registrer-stepper {
+        @apply flex w-full h-1 bg-primary-accent absolute top-0 left-0;
+    }
+
+    .registrer-stepper .step {
+        @apply w-1/4;
+    }
+
+    .registrer-stepper .step.active {
+        @apply bg-success;
+    }
+}

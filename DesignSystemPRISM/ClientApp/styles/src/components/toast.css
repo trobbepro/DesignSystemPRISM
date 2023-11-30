@@ -1,0 +1,38 @@
+@layer components {
+
+    .toast {
+        @apply hidden animate-fade-in-bottom-toast translate-x-[-50%] absolute bottom-l min-w-[18.5rem] left-1/2 py-2xs text-xs text-button surface-toast-none items-center mx-auto rounded-selection-card;
+    }
+
+    .toast p {
+        @apply text-button text-xs pr-xs;
+    }
+
+    .toast p:first-child {
+        @apply pl-s;
+    }
+
+    .toast [class^="icon-font-"], .toast [class*=" icon-font-"] {
+        @apply text-m px-s py-2xs;
+    }
+
+    .toast button {
+        @apply border-l surface-transparent shadow-none border-neutral-0 border-opacity-20 ml-auto;
+    }
+
+    .toast.information {
+        @apply surface-brand;
+    }
+
+    .toast.error {
+        @apply surface-error;
+    }
+
+    .toast.success {
+        @apply surface-success;
+    }
+
+    /* .toast.warning {
+        @apply surface-warning;
+    } */
+}

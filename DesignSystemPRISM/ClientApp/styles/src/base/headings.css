@@ -1,0 +1,17 @@
+@layer base {
+    h1 {
+        @apply text-primary mb-3 font-michroma text-3xl leading-[1.60] tracking-[.12rem] sm:text-2xl sm:leading-[1.55] sm:tracking-[.08rem];
+    }
+
+    h2 {
+        @apply text-primary mt-5 mb-3 font-michroma text-xl leading-[1.65] tracking-[0.04rem];
+    }
+
+    h3 {
+        @apply text-primary mt-4 mb-3 font-lexend font-medium text-l leading-normal tracking-[.03rem];
+    }
+
+    h4 {
+        @apply text-primary mt-3 mb-3 font-lexend font-light text-l leading-normal tracking-[.03rem];
+    }
+}

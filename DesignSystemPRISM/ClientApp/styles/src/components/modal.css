@@ -1,0 +1,25 @@
+.modal {
+    @apply hidden fixed top-0 left-0 w-screen h-screen z-50;
+}
+
+.modal-overlay {
+    @apply absolute top-0 left-0 w-full h-full bg-[#000] opacity-50;
+}
+
+.modal div[role="dialog"] {
+    @apply relative z-10 bg-neutral-0 rounded-xs p-l pt-0 max-w-[38.5rem] w-full h-screen sm:h-fit;
+    box-shadow: 0 2px 2px rgba(0,0,0,.25);
+
+}
+
+.modal.is-open {
+    @apply flex items-center justify-center
+}
+
+.companiesInputRadioContainer {
+    @apply scrollbar scrollbar-track-neutral-50 scrollbar-thumb-neutral-300 scrollbar-w-xs scrollbar-track-rounded-xs scrollbar-h-7 scrollbar-thumb-rounded-xs;
+    height: 334px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Michroma';
+    font-weight: normal;
+    src: url('https://innoloopdocumentstorage.blob.core.windows.net/pocazurebtwoc/production/styles/dist/fonts/Michroma-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    src: url('https://innoloopdocumentstorage.blob.core.windows.net/pocazurebtwoc/production/styles/dist/fonts/LexendDeca-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    font-weight: 500;
+    src: url('https://innoloopdocumentstorage.blob.core.windows.net/pocazurebtwoc/production/styles/dist/fonts/LexendDeca-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    font-weight: 300;
+    src: url('https://innoloopdocumentstorage.blob.core.windows.net/pocazurebtwoc/production/styles/dist/fonts/LexendDeca-Light.ttf');
+}

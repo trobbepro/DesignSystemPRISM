@@ -1,0 +1,32 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>DesignSystemPRISM</PageTitle>
+<NavMenu />
+<div class="relative z-10 h-full w-full">
+    <header class="sticky top-0 py-s bg-neutral-50 w-full leading-5">
+        <a class=" pl-7 leading-none" href="">DesignSystemPRISM</a>
+    </header>
+    <main class="container-complex p-l overflow-auto h-full">
+        <article class="w-full">
+            @Body
+        </article>
+    </main>
+    <footer></footer>
+</div>
+    
+<div class="sidebar">
+</div>
+
+<main>
+</main>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

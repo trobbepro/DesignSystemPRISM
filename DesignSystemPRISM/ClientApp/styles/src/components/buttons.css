@@ -1,0 +1,45 @@
+@layer components {
+    .btn {
+        @apply relative
+        disabled:surface-disabled
+        disabled:text-disabled
+        before:absolute
+        before:top-1/2
+        before:left-1/2
+        before:scale-0
+        before:w-[1.75rem]
+        before:h-[1.75rem]
+        before:bg-primary-darker
+        before:rounded-[100%]
+        before:translate-x-[-50%]
+        before:translate-y-[-50%]
+        before:opacity-50
+        active:before:scale-100
+        before:origin-center
+        before:ease-in
+        before:duration-100
+        flex
+        items-center
+        gap-xs
+        text-button
+        surface-brand
+        rounded-button
+        py-xs
+        px-s
+        hover:surface-hover
+        transition
+        ease-in-out
+        duration-300
+        text-m
+        leading-normal
+        w-fit;
+    }
+
+    .btn-link {
+        @apply text-primary font-lexend text-m font-light leading-normal tracking-wide underline border-none p-0;
+    }
+
+    .btn-tertiary {
+        @apply flex items-center gap-xs no-underline text-button-dark font-lexend text-m font-normal leading-normal tracking-wide border-none px-s py-xs;
+    }
+}

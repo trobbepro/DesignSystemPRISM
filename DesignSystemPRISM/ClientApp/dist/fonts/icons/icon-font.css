@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "icon-font";
+  src: url('https://tildesignsystem.blob.core.windows.net/til-designsystem/styles/fonts/icons/icon-font.eot?t=1701091757142'); /* IE9*/
+  src: url('https://tildesignsystem.blob.core.windows.net/til-designsystem/styles/fonts/icons/icon-font.eot?t=1701091757142#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("https://tildesignsystem.blob.core.windows.net/til-designsystem/styles/fonts/icons/icon-font.woff2?t=1701091757142") format("woff2"),
+  url("https://tildesignsystem.blob.core.windows.net/til-designsystem/styles/fonts/icons/icon-font.woff?t=1701091757142") format("woff"),
+  url('https://tildesignsystem.blob.core.windows.net/til-designsystem/styles/fonts/icons/icon-font.ttf?t=1701091757142') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('https://tildesignsystem.blob.core.windows.net/til-designsystem/styles/fonts/icons/icon-font.svg?t=1701091757142#icon-font') format('svg'); /* iOS 4.1- */
+}
+
+[class^="icon-font-"], [class*=" icon-font-"] {
+  font-family: 'icon-font' !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-font-arrow-down-arrow-up-light 1:before { content: "\ea01"; }
+.icon-font-arrow-down-left-and-arrow-up-right-to-center-light 1:before { content: "\ea02"; }
+.icon-font-arrow-down-light:before { content: "\ea03"; }
+.icon-font-arrow-left-from-bracket-light:before { content: "\ea04"; }
+.icon-font-arrow-left-light:before { content: "\ea05"; }
+.icon-font-arrow-right-from-bracket-light:before { content: "\ea06"; }
+.icon-font-arrow-right-light:before { content: "\ea07"; }
+.icon-font-arrow-up-light:before { content: "\ea08"; }
+.icon-font-arrow-up-right-and-arrow-down-left-from-center-light:before { content: "\ea09"; }
+.icon-font-arrow-up-right-from-square-light:before { content: "\ea0a"; }
+.icon-font-arrows-cross-light:before { content: "\ea0b"; }
+.icon-font-atom-simple-light 1:before { content: "\ea0c"; }
+.icon-font-bars-sort-light:before { content: "\ea0d"; }
+.icon-font-bars:before { content: "\ea0e"; }
+.icon-font-bell:before { content: "\ea0f"; }
+.icon-font-bookmark-light:before { content: "\ea10"; }
+.icon-font-bookmark-solid:before { content: "\ea11"; }
+.icon-font-briefcase-light:before { content: "\ea12"; }
+.icon-font-building-light:before { content: "\ea13"; }
+.icon-font-camera-light:before { content: "\ea14"; }
+.icon-font-cart-shopping-light:before { content: "\ea15"; }
+.icon-font-check-light:before { content: "\ea16"; }
+.icon-font-chevron-down-light:before { content: "\ea17"; }
+.icon-font-chevron-left-light:before { content: "\ea18"; }
+.icon-font-chevron-right-light:before { content: "\ea19"; }
+.icon-font-chevron-up-light:before { content: "\ea1a"; }
+.icon-font-chevrons-down-light:before { content: "\ea1b"; }
+.icon-font-chevrons-left-light:before { content: "\ea1c"; }
+.icon-font-chevrons-right-light:before { content: "\ea1d"; }
+.icon-font-chevrons-up-light:before { content: "\ea1e"; }
+.icon-font-circle-check-light:before { content: "\ea1f"; }
+.icon-font-circle-check-solid:before { content: "\ea20"; }
+.icon-font-circle-exclamation-light:before { content: "\ea21"; }
+.icon-font-circle-exclamation-solid:before { content: "\ea22"; }
+.icon-font-circle-info-light:before { content: "\ea23"; }
+.icon-font-circle-info-solid:before { content: "\ea24"; }
+.icon-font-circle-plus-light:before { content: "\ea25"; }
+.icon-font-circle-question-light:before { content: "\ea26"; }
+.icon-font-circle-question-solid:before { content: "\ea27"; }
+.icon-font-circle-xmark-light:before { content: "\ea28"; }
+.icon-font-circle-xmark-solid:before { content: "\ea29"; }
+.icon-font-cloud-arrow-down-light:before { content: "\ea2a"; }
+.icon-font-cloud-light:before { content: "\ea2b"; }
+.icon-font-copy:before { content: "\ea2c"; }
+.icon-font-domain_composant:before { content: "\ea2d"; }
+.icon-font-domain_fonction:before { content: "\ea2e"; }
+.icon-font-domain_marche:before { content: "\ea2f"; }
+.icon-font-domain_science:before { content: "\ea30"; }
+.icon-font-domain_société:before { content: "\ea31"; }
+.icon-font-domain_solution:before { content: "\ea32"; }
+.icon-font-domain_technology:before { content: "\ea33"; }
+.icon-font-down-to-bracket-light:before { content: "\ea34"; }
+.icon-font-Ellipse 1:before { content: "\ea35"; }
+.icon-font-ellipsis-light:before { content: "\ea36"; }
+.icon-font-ellipsis-vertical:before { content: "\ea37"; }
+.icon-font-envelope-light:before { content: "\ea38"; }
+.icon-font-euro-search:before { content: "\ea39"; }
+.icon-font-euro-sign-light:before { content: "\ea3a"; }
+.icon-font-file-arrow-down-light 1:before { content: "\ea3b"; }
+.icon-font-file-code-light:before { content: "\ea3c"; }
+.icon-font-file-doc-light:before { content: "\ea3d"; }
+.icon-font-file-pdf-light:before { content: "\ea3e"; }
+.icon-font-files:before { content: "\ea3f"; }
+.icon-font-folder-plus-light:before { content: "\ea40"; }
+.icon-font-folder:before { content: "\ea41"; }
+.icon-font-gear:before { content: "\ea42"; }
+.icon-font-globe-light:before { content: "\ea43"; }
+.icon-font-globe-pointer-sharp-light:before { content: "\ea44"; }
+.icon-font-hand-holding-box-light 1:before { content: "\ea45"; }
+.icon-font-handshake-simple-light:before { content: "\ea46"; }
+.icon-font-hide-mdp:before { content: "\ea47"; }
+.icon-font-house-blank:before { content: "\ea48"; }
+.icon-font-icons-light:before { content: "\ea49"; }
+.icon-font-icon_file_doc:before { content: "\ea4a"; }
+.icon-font-icon_file_html:before { content: "\ea4b"; }
+.icon-font-icon_file_pdf:before { content: "\ea4c"; }
+.icon-font-icon_file_xls:before { content: "\ea4d"; }
+.icon-font-id-card-clip-light:before { content: "\ea4e"; }
+.icon-font-image-light:before { content: "\ea4f"; }
+.icon-font-life-ring:before { content: "\ea50"; }
+.icon-font-lightbulb-light:before { content: "\ea51"; }
+.icon-font-lightbulb-on-light:before { content: "\ea52"; }
+.icon-font-link-light:before { content: "\ea53"; }
+.icon-font-lock-open:before { content: "\ea54"; }
+.icon-font-lock:before { content: "\ea55"; }
+.icon-font-magnifying-glass-light:before { content: "\ea56"; }
+.icon-font-messages-light:before { content: "\ea57"; }
+.icon-font-microscope-light 1:before { content: "\ea58"; }
+.icon-font-minus-light:before { content: "\ea59"; }
+.icon-font-pen-circle-light:before { content: "\ea5a"; }
+.icon-font-pen-light:before { content: "\ea5b"; }
+.icon-font-pen-to-square-light:before { content: "\ea5c"; }
+.icon-font-percent:before { content: "\ea5d"; }
+.icon-font-phone-light:before { content: "\ea5e"; }
+.icon-font-play-solid:before { content: "\ea5f"; }
+.icon-font-plus-light:before { content: "\ea60"; }
+.icon-font-screen-users-light:before { content: "\ea61"; }
+.icon-font-share-nodes:before { content: "\ea62"; }
+.icon-font-shield-check-light:before { content: "\ea63"; }
+.icon-font-shop:before { content: "\ea64"; }
+.icon-font-show-mdp:before { content: "\ea65"; }
+.icon-font-star-light:before { content: "\ea66"; }
+.icon-font-star-solid:before { content: "\ea67"; }
+.icon-font-trash-can-light:before { content: "\ea68"; }
+.icon-font-trophy-light:before { content: "\ea69"; }
+.icon-font-up-from-bracket-light:before { content: "\ea6a"; }
+.icon-font-user-astronaut-light 2:before { content: "\ea6b"; }
+.icon-font-user-circle-light:before { content: "\ea6c"; }
+.icon-font-users-light:before { content: "\ea6d"; }
+.icon-font-vector:before { content: "\ea6e"; }
+.icon-font-xmark-light:before { content: "\ea6f"; }
+
