@@ -568,7 +568,7 @@ select {
   line-height: 1.60;
   letter-spacing: .12rem;
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
         color: #191B1F;
 }
     @media (min-width: 768px) {
@@ -588,7 +588,7 @@ select {
   line-height: 1.65;
   letter-spacing: 0.04rem;
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
         color: #191B1F;
 }
 
@@ -601,7 +601,7 @@ select {
   line-height: 1.5;
   letter-spacing: .03rem;
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
         color: #191B1F;
 }
 
@@ -614,7 +614,7 @@ select {
   line-height: 1.5;
   letter-spacing: .03rem;
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
         color: #191B1F;
 }
     p, input, ul {
@@ -623,7 +623,7 @@ select {
   line-height: 1.5;
   letter-spacing: 0.025em;
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
         color: #191B1F;
 }
 
@@ -633,7 +633,7 @@ select {
   line-height: 1.5;
   letter-spacing: 0.025em;
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
         color: #191B1F;
 }
 
@@ -643,7 +643,7 @@ select {
   line-height: 1.5;
   letter-spacing: 0.025em;
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
   text-decoration-line: underline;
         color: #191B1F;
 }
@@ -666,7 +666,7 @@ select {
         font-size: 1rem;
         line-height: 1.4;
         --tw-text-opacity: 1;
-        color: rgb(25 27 31 / var(--tw-text-opacity));
+        color: rgb(140 74 247 / var(--tw-text-opacity));
         transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
         transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
         transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -856,7 +856,7 @@ select {
 }
     html {
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
         color: #191B1F;
         font-family: 'Lexend Deca';
 }
@@ -1180,6 +1180,63 @@ select {
 /* .toast.warning {
         @apply surface-warning;
     } */
+.tab-group {
+  display: flex;
+}
+.tab {
+  display: flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(140 74 247 / var(--tw-border-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+        border-color: #BBC1D1;
+}
+.tab[aria-selected="true"] {
+        color: #8C4AF7;
+        border-color: #8C4AF7;
+    }
+.tab:hover {
+  --tw-text-opacity: 1;
+  color: rgb(103 31 184 / var(--tw-text-opacity));
+        background-color: #F2F2FD;
+        border-color: #671FB8;
+}
+.tab-group.m .tab {
+  font-size: 0.875rem;
+}
+.tab-group.s .tab {
+  font-size: 0.75rem;
+}
+.tab-group.l .tab {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+}
+.tab-group.\!l .tab {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+}
+.tab-group.xl .tab {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.tab-group.xxl .tab {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
 .registrer-stepper {
   position: absolute;
   top: 0px;
@@ -1282,7 +1339,7 @@ select {
   font-size: 1rem;
   line-height: 1.4;
   --tw-text-opacity: 1;
-  color: rgb(25 27 31 / var(--tw-text-opacity));
+  color: rgb(140 74 247 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;

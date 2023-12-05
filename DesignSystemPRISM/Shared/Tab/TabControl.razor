@@ -1,19 +1,25 @@
-﻿<div>This is a TabControl</div>
-<div class="btn-group" role="tablist">
+﻿<CascadingValue Value="this">
+	<div class="tab-group @Size" role="tablist">
 
-	@foreach (TabPage tabPage in Pages)
-	{
-		<button role="tab"
-				type="button"
-				aria-selected="@GetSelected(tabPage)"
-				class="btn"
-				@onclick=@( () => ActivatePage(tabPage) )>
-			@tabPage.Text
-		</button>
-	}
+		@foreach (TabPage tabPage in Pages)
+		{
+			<button type="button"
+					class="tab"
+					aria-selected="@GetSelected(tabPage)"
+					@onclick=@( () => ActivatePage(tabPage) )>
 
-</div>
-<CascadingValue Value="this">
+			@if (TabTextTemplate != null)
+			{
+				@TabTextTemplate(tabPage)
+			} 
+			else
+			{
+				@tabPage.Text
+			}
+			</button>
+		}
+
+	</div>
 	@ChildContent
 </CascadingValue>
 
@@ -22,7 +28,14 @@
 	[Parameter]
 	public RenderFragment ChildContent { get; set; }
 
+	[Parameter]
+	public string? Size { get; set; }
+
+	[Parameter]
+	public RenderFragment<TabPage> TabTextTemplate { get; set; }
+
 	public TabPage ActivePage { get; set; }
+
 	List<TabPage> Pages = new List<TabPage>();
 
 	internal void AddPage(TabPage tabPage)

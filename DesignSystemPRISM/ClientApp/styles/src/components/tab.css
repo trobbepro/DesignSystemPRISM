@@ -1,0 +1,29 @@
+﻿@layer components {
+    .tab-group {
+        @apply flex;
+    }
+
+    .tab {
+        @apply flex items-center justify-center px-s py-xs min-h-[42px] text-s font-light border-b-2 border-primary aria-selected:text-button-dark aria-selected:border-brand hover:border-hover hover:surface-hover-secondary-tertiary hover:text-primary-dark;
+    }
+
+    .tab-group.m .tab {
+        @apply text-s;
+    }
+
+    .tab-group.s .tab {
+        @apply text-xs;
+    }
+
+    .tab-group.l .tab {
+        @apply text-m px-m;
+    }
+
+    .tab-group.xl .tab {
+        @apply text-m px-m font-medium;
+    }
+
+    .tab-group.xxl .tab {
+        @apply text-l px-m font-medium;
+    }
+}
